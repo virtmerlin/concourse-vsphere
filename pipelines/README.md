@@ -174,3 +174,6 @@ Now you can execute the following commands:
 -	`fly -t lite unpause-pipeline -p pcf`
 
 ![](./images/pipeline_new.png)
+
+* BT Demo Notes
+-	`fly -t lite set-pipeline -p pcf -c new-setup-with-nsx-edge/pipeline.yml -l params.yml`
