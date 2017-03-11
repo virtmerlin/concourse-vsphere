@@ -86,6 +86,10 @@ jobs:
       VCENTER_USR: {{vcenter_usr}}
       VCENTER_PWD: {{vcenter_pwd}}
       VCENTER_DATA_CENTER: {{vcenter_data_center}}
+      NSX_EDGE_GEN_NSX_MANAGER_ADDRESS: {{nsx_edge_gen_nsx_manager_address}}
+      NSX_EDGE_GEN_NSX_MANAGER_ADMIN_USER: {{nsx_edge_gen_nsx_manager_admin_user}}
+      NSX_EDGE_GEN_NSX_MANAGER_ADMIN_PASSWD: {{nsx_edge_gen_nsx_manager_admin_passwd}}
+      NSX_EDGE_GEN_NSX_MANAGER_TRANSPORT_ZONE: {{nsx_edge_gen_nsx_manager_transport_zone}}
 
 - name: install-opsmgr
   plan:
