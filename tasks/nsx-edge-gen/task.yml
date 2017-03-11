@@ -13,6 +13,7 @@ params:
   VCENTER_DATA_CENTER:
 
 inputs:
+  - name: concourse-vsphere
   - name: nsx-edge-gen
 
 run:

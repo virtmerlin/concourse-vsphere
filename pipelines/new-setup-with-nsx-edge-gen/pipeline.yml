@@ -51,6 +51,14 @@ resources:
     uri: https://github.com/virtmerlin/concourse-vsphere.git
     branch: master
 
+- name: nsx-edge-gen
+  type: git
+  source:
+    uri: https://github.com/cf-platform-eng/nsx-edge-gen.git
+    branch: master
+    username: {{github_user}}
+    password: {{github_token}}
+
 - name: pivnet-opsman-product
   type: pivnet
   source:
@@ -63,13 +71,6 @@ resources:
     api_token: {{pivnet_token}}
     product_slug: elastic-runtime
 
-- name: nsx-edge-gen
-  type: git
-  source:
-    uri: https://github.com/cf-platform-eng/nsx-edge-gen.git
-    branch: master
-    username: {{github_user}}
-    password: {{github_token}}
 
 jobs:
 
